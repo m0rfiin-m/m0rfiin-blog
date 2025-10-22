@@ -1,0 +1,9 @@
+name = "Morfiin Minimal"
+description = "Matte black, brutalist theme for technical writing"
+tags = ["dark", "minimal", "technical", "brutalist"]
+features = ["responsive", "fast", "dark-mode"]
+min_version = "0.120.0"
+
+[author]
+  name = "M0RFIIN"
+  homepage = "https://github.com/m0rfiin-m"
