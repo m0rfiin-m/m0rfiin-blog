@@ -1,0 +1,33 @@
+baseURL = 'https://m0rfiin-m.github.io/m0rfiin-blog/'
+languageCode = 'en-us'
+title = 'M0RFIIN - Entertainment Tech & AI'
+theme = 'morfiin-minimal'
+
+# Content settings
+paginate = 10
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  description = "Technical deep-dives at the intersection of entertainment business and AI infrastructure"
+  author = "Your Name"
+  dateFormat = "January 2, 2006"
+  readingTime = true
+  
+[author]
+  name = "Your Name"
+  email = "your@email.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
