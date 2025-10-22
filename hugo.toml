@@ -10,13 +10,13 @@ enableEmoji = true
 
 [params]
   description = "Technical deep-dives at the intersection of entertainment business and AI infrastructure"
-  author = "Your Name"
+  author = "Marco Morfin"
   dateFormat = "January 2, 2006"
   readingTime = true
   
 [author]
-  name = "Your Name"
-  email = "your@email.com"
+  name = "Marco Morfin"
+  email = "m.m0rfiin@gmail.com"
 
 [menu]
   [[menu.main]]
