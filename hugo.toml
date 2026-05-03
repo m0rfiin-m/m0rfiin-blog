@@ -1,6 +1,6 @@
 baseURL = 'https://m0rfiin-m.github.io/m0rfiin-blog/'
 languageCode = 'en-us'
-title = 'M0RFIIN - Entertainment Tech & AI'
+title = 'M0RFIIN | Full Sail Masters Journal'
 theme = 'morfiin-minimal'
 
 # Content settings
@@ -10,25 +10,26 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [params]
-  description = "Technical deep-dives at the intersection of entertainment business and AI infrastructure"
+  description = "A running journal of my Masters program at Full Sail University — lessons learned, projects built, and thoughts along the way."
   author = "Marco Morfin"
   dateFormat = "January 2, 2006"
   readingTime = true
-  
+  school = "Full Sail University"
+  program = "Masters Program"
+
 [author]
   name = "Marco Morfin"
   email = "m.m0rfiin@gmail.com"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
+    identifier = "journal"
+    name = "Journal"
     url = "/posts/"
     weight = 1
-  
+
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 2
-

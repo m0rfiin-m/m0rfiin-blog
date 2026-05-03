@@ -1,4 +1,4 @@
-/* Matte Black Theme - Inspired by Omarchy */
+/* Matte Black Theme - Full Sail Masters Journal */
 
 * {
     margin: 0;
@@ -10,10 +10,11 @@
     --bg: #0a0a0a;
     --text: #e8e8e8;
     --text-dim: #6e6e6e;
-    --accent: #00ff88;
+    --accent: #ff5a00;
+    --accent-soft: rgba(255, 90, 0, 0.08);
     --code-bg: #141414;
     --border: #1a1a1a;
-    
+
     --font-mono: "SF Mono", Monaco, "Cascadia Code", Consolas, monospace;
     --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -66,7 +67,7 @@ p {
 
 /* Header */
 header {
-    padding: 3rem 0;
+    padding: 2rem 0;
     border-bottom: 1px solid var(--border);
 }
 
@@ -76,10 +77,25 @@ header .container {
     align-items: center;
 }
 
+.site-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
 .site-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--text);
+    letter-spacing: -0.02em;
+}
+
+.site-subtitle {
+    font-size: 0.7rem;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 nav {
@@ -89,11 +105,13 @@ nav {
 
 nav a {
     color: var(--text-dim);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
 }
 
 nav a:hover {
     color: var(--text);
+    opacity: 1;
 }
 
 /* Main */
@@ -102,54 +120,98 @@ main {
     padding: 4rem 0;
 }
 
-/* Home */
+/* Home intro */
 .intro {
     margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.intro-label {
+    font-size: 0.7rem;
+    font-family: var(--font-mono);
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .intro h1 {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: -0.03em;
 }
 
 .intro p {
     color: var(--text-dim);
-    font-size: 1.1rem;
+    font-size: 1rem;
+    max-width: 560px;
+    margin-bottom: 0;
 }
 
-/* Posts */
+/* Journal entries list */
 .posts {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 0;
+}
+
+.posts-header {
+    font-size: 0.7rem;
+    font-family: var(--font-mono);
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
 }
 
 .post-item {
     border-bottom: 1px solid var(--border);
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .post-item:last-child {
     border-bottom: none;
 }
 
+.entry-label {
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
 .post-item h2 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
 }
 
 .post-item h2 a {
     color: var(--text);
 }
 
+.post-item h2 a:hover {
+    color: var(--accent);
+    opacity: 1;
+}
+
 .meta {
     display: flex;
     gap: 1.5rem;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     color: var(--text-dim);
     margin-bottom: 1rem;
+    font-family: var(--font-mono);
 }
 
 .tags {
@@ -162,34 +224,65 @@ main {
 }
 
 .read-more {
+    font-size: 0.82rem;
+    font-family: var(--font-mono);
     font-weight: 500;
     display: inline-block;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
+    color: var(--accent);
 }
 
-/* Single Post */
+/* Single Post / Journal Entry */
 .post {
     max-width: 720px;
 }
 
 .post-header {
     margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-type-label {
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .post-header h1 {
     margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: -0.03em;
+}
+
+.post-meta {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
 }
 
 /* Content */
 .content {
     font-size: 1rem;
-    line-height: 1.8;
+    line-height: 1.85;
 }
 
 .content h2 {
     margin-top: 3rem;
     padding-top: 2rem;
     border-top: 1px solid var(--border);
+    font-size: 1.4rem;
+}
+
+.content h3 {
+    font-size: 1.15rem;
+    color: var(--accent);
 }
 
 .content ul,
@@ -204,22 +297,26 @@ main {
 
 .content blockquote {
     border-left: 3px solid var(--accent);
-    padding-left: 1.5rem;
+    padding: 1rem 1.5rem;
     margin: 2rem 0;
     color: var(--text-dim);
+    background: var(--accent-soft);
+    border-radius: 0 4px 4px 0;
 }
 
 .content img {
     max-width: 100%;
     margin: 2rem 0;
+    border-radius: 4px;
 }
 
 .content code {
     font-family: var(--font-mono);
-    font-size: 0.9em;
+    font-size: 0.88em;
     background: var(--code-bg);
     padding: 0.2em 0.4em;
     border-radius: 3px;
+    color: var(--accent);
 }
 
 .content pre {
@@ -234,6 +331,7 @@ main {
 .content pre code {
     background: transparent;
     padding: 0;
+    color: var(--text);
 }
 
 /* Footer */
@@ -243,15 +341,31 @@ footer {
     margin-top: 4rem;
 }
 
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer p {
     color: var(--text-dim);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
     margin: 0;
+}
+
+.footer-school {
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     html { font-size: 16px; }
-    .container { padding: 0 1.5rem; }
-    header .container { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .container { padding: 0 1.25rem; }
+    header .container { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+    footer .container { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+    .post-meta { flex-direction: column; gap: 0.5rem; }
 }

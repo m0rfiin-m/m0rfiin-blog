@@ -4,8 +4,10 @@ date: 2026-05-02
 draft: false
 ---
 
-I'm Marco Morfin. I work at the intersection of entertainment and technology.
+I'm Marco Morfin, currently enrolled in the Masters program at Full Sail University.
 
-This blog is where I write about AI, entertainment tech, and whatever I'm learning along the way. No polish, no fluff — just what's actually happening.
+This journal documents the experience as it happens. Lessons from class, projects I'm building, things that click, and things that don't. It's a record, not a highlight reel.
 
-If something here is useful to you, great. If you want to reach out: m.m0rfiin@gmail.com
+My background is in entertainment and technology. That lens shapes how I approach everything I learn here.
+
+If you want to reach out: m.m0rfiin@gmail.com

@@ -1,7 +1,10 @@
 <header>
     <div class="container">
-        <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
-        
+        <a href="{{ .Site.BaseURL }}" class="site-brand">
+            <span class="site-title">{{ .Site.Title }}</span>
+            <span class="site-subtitle">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+        </a>
+
         <nav>
             {{ range .Site.Menus.main }}
             <a href="{{ .URL }}">{{ .Name }}</a>
@@ -9,4 +12,3 @@
         </nav>
     </div>
 </header>
-

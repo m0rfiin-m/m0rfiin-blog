@@ -1,15 +1,20 @@
 {{ define "main" }}
 <div class="container">
     <div class="intro">
-        <h1>{{ .Site.Title }}</h1>
+        <span class="intro-label">{{ .Site.Params.program }} &middot; {{ .Site.Params.school }}</span>
+        <h1>Masters Class Journal</h1>
         <p>{{ .Site.Params.description }}</p>
     </div>
-    
+
+    {{ $posts := first 10 (where .Site.RegularPages "Type" "posts") }}
+    {{ if $posts }}
+    <div class="posts-header">Journal Entries &mdash; {{ len .Site.RegularPages }} total</div>
     <div class="posts">
-        {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+        {{ range $posts }}
         <article class="post-item">
+            <span class="entry-label">Journal Entry</span>
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            
+
             <div class="meta">
                 <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
                 {{ if .Params.tags }}
@@ -20,14 +25,17 @@
                 </span>
                 {{ end }}
             </div>
-            
+
             {{ if .Summary }}
             <p>{{ .Summary }}</p>
             {{ end }}
-            
-            <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+
+            <a href="{{ .Permalink }}" class="read-more">Read entry &rarr;</a>
         </article>
         {{ end }}
     </div>
+    {{ else }}
+    <p style="color: var(--text-dim); font-family: var(--font-mono); font-size: 0.9rem;">No entries yet. Check back soon.</p>
+    {{ end }}
 </div>
 {{ end }}

@@ -2,9 +2,10 @@
 <div class="container">
     <article class="post">
         <header class="post-header">
+            <span class="post-type-label">Journal Entry &middot; {{ $.Site.Params.school }}</span>
             <h1>{{ .Title }}</h1>
-            
-            <div class="meta">
+
+            <div class="post-meta">
                 <time>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
                 {{ if .Params.tags }}
                 <span class="tags">
@@ -15,12 +16,10 @@
                 {{ end }}
             </div>
         </header>
-        
+
         <div class="content">
             {{ .Content }}
         </div>
     </article>
 </div>
 {{ end }}
-
-
