@@ -5,12 +5,17 @@ on:
     - cron: '*/30 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   sync-posts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout blog repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout Octarine-Docs
         uses: actions/checkout@v4
@@ -22,21 +27,16 @@ jobs:
       - name: Copy published posts
         run: |
           mkdir -p content/posts
+          CHANGED=false
           for file in octarine-source/Blog-Ready/*.md; do
             [ -f "$file" ] || continue
             if grep -q "published: true" "$file"; then
-              cp "$file" content/posts/
+              filename=$(basename "$file")
+              dest="content/posts/$filename"
+              if [ ! -f "$dest" ] || ! diff -q "$file" "$dest" > /dev/null 2>&1; then
+                cp "$file" "$dest"
+                CHANGED=true
+              fi
             fi
           done
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      
