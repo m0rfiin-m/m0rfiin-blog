@@ -29,6 +29,18 @@ jobs:
           token: ${{ secrets.OCTARINE_PAT }}
           path: octarine-source
 
+      - name: Debug Blog-Ready contents
+        run: |
+          echo "=== Files in Blog-Ready ==="
+          ls -la octarine-source/Blog-Ready/ || echo "Folder not found"
+          echo "=== Raw content of each file ==="
+          for file in octarine-source/Blog-Ready/*; do
+            [ -f "$file" ] || continue
+            echo "--- FILE: $(basename "$file") ---"
+            cat "$file" | head -20
+            echo ""
+          done
+
       - name: Copy published posts
         run: |
           mkdir -p content/posts
@@ -45,6 +57,8 @@ jobs:
               else
                 echo "Unchanged: $filename"
               fi
+            else
+              echo "Skipped (no published: true): $(basename "$file")"
             fi
           done
           echo "CHANGED=$CHANGED" >> $GITHUB_ENV
