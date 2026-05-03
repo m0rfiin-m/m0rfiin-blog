@@ -1,0 +1,42 @@
+name: Publish from Octarine
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog repo
+        uses: actions/checkout@v4
+
+      - name: Checkout Octarine-Docs
+        uses: actions/checkout@v4
+        with:
+          repository: m0rfiin-m/Octarine-Docs
+          token: ${{ secrets.OCTARINE_PAT }}
+          path: octarine-source
+
+      - name: Copy published posts
+        run: |
+          mkdir -p content/posts
+          for file in octarine-source/Blog-Ready/*.md; do
+            [ -f "$file" ] || continue
+            if grep -q "published: true" "$file"; then
+              cp "$file" content/posts/
+            fi
+          done
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
