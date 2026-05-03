@@ -8,7 +8,7 @@
 
     {{ $posts := first 10 (where .Site.RegularPages "Type" "posts") }}
     {{ if $posts }}
-    <div class="posts-header">Journal Entries &mdash; {{ len .Site.RegularPages }} total</div>
+    <div class="posts-header">Journal Entries &mdash; {{ len $posts }} total</div>
     <div class="posts">
         {{ range $posts }}
         <article class="post-item">
