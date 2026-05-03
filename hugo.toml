@@ -1,6 +1,6 @@
 baseURL = 'https://m0rfiin-m.github.io/m0rfiin-blog/'
 languageCode = 'en-us'
-title = 'M0RFIIN | Full Sail Masters Journal'
+title = 'Marco Morfin | Full Sail Masters Journal'
 theme = 'morfiin-minimal'
 
 # Content settings
