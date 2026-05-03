@@ -6,8 +6,6 @@ published: true
 ---
 
 
-
-
 From Blueprint to Brand: Reflections on My Digital Marketing Journey and the Future of Tempest eSports
 
 When I originally set my Mastery: PDL Timeline goal for this course, I wrote about wanting to move beyond production and operations and into the strategic business side of entertainment. I wanted to understand how major companies like Netflix, Riot Games, and Sony make decisions about content, revenue, and audience growth. That goal has not changed. What has changed is that this course gave me something more concrete: a blueprint.
