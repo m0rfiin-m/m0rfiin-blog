@@ -38,8 +38,9 @@ jobs:
             if grep -q "published: true" "$file"; then
               filename=$(basename "$file")
               dest="content/posts/$filename"
-              if [ ! -f "$dest" ] || ! diff -q "$file" "$dest" > /dev/null 2>&1; then
-                cp "$file" "$dest"
+              # Normalize CRLF before comparing so Windows line endings don't cause false diffs
+              if [ ! -f "$dest" ] || ! diff -q <(tr -d '\r' < "$file") <(tr -d '\r' < "$dest") > /dev/null 2>&1; then
+                tr -d '\r' < "$file" > "$dest"
                 CHANGED=true
               fi
             fi
@@ -51,10 +52,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add content/posts/
           git commit -m "sync: publish new posts from Octarine"
-          git push
+          for i in 1 2 3; do
+            git push && break
+            echo "Push attempt $i failed, pulling and retrying..."
+            git pull --rebase origin main
+          done
 
       - name: Trigger deploy
         if: env.CHANGED == 'true'
