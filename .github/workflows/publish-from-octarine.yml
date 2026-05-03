@@ -27,6 +27,15 @@ jobs:
           token: ${{ secrets.OCTARINE_PAT }}
           path: octarine-source
 
+      - name: Debug - show Octarine-Docs structure
+        run: |
+          echo "=== Root of Octarine-Docs ==="
+          ls -la octarine-source/
+          echo "=== Looking for Blog-Ready folder ==="
+          find octarine-source -type d -name "*Blog*" -o -type d -name "*blog*" -o -type d -name "*Ready*" -o -type d -name "*ready*" 2>/dev/null || echo "No matching folders found"
+          echo "=== All .md files in octarine-source ==="
+          find octarine-source -name "*.md" | head -30
+
       - name: Copy published posts
         run: |
           mkdir -p content/posts
