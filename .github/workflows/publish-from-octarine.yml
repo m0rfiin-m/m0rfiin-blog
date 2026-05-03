@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -26,15 +27,6 @@ jobs:
           repository: m0rfiin-m/Octarine-Docs
           token: ${{ secrets.OCTARINE_PAT }}
           path: octarine-source
-
-      - name: Debug - show Octarine-Docs structure
-        run: |
-          echo "=== Root of Octarine-Docs ==="
-          ls -la octarine-source/
-          echo "=== Looking for Blog-Ready folder ==="
-          find octarine-source -type d -name "*Blog*" -o -type d -name "*blog*" -o -type d -name "*Ready*" -o -type d -name "*ready*" 2>/dev/null || echo "No matching folders found"
-          echo "=== All .md files in octarine-source ==="
-          find octarine-source -name "*.md" | head -30
 
       - name: Copy published posts
         run: |
@@ -61,3 +53,9 @@ jobs:
           git add content/posts/
           git commit -m "sync: publish new posts from Octarine"
           git push
+
+      - name: Trigger deploy
+        if: env.CHANGED == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
