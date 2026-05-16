@@ -5,7 +5,7 @@ draft: false
 category: "Internship"
 role: "Discord & Community Manager"
 period: "January 2024 - June 2025"
-tags: ["community management", "discord", "content strategy", "data analytics", "AI tools", "web3", "gaming"]
+tags: ["community management", "discord", "content strategy", "data analytics", "web3", "gaming", "engagement strategy"]
 ---
 
 Tanbii is a Web3 gaming and sustainability platform. I joined as a Discord and Community Manager intern in early 2024 and spent over a year running day-to-day community operations for a server of approximately 15,921 members.
@@ -42,8 +42,8 @@ I coordinated moderators and interns through Slack, reviewed intern submissions,
 
 ## Tools
 
-Discord, Slack, Google Sheets, Discord Analytics, MEE6, Dyno, Canva, OBS, Notion, Hootsuite, Later, ChatGPT
+Discord, Slack, Google Sheets, Discord Analytics, MEE6, Dyno, Canva, OBS, Notion, Hootsuite, Later
 
 ## What This Work Represents
 
-Tanbii was live-service community support work. The platform was actively updating, the community had real opinions about those updates, and my job was to keep the community engaged, informed, and heard throughout that process. That is the core skill set for any gaming, esports, or creator-brand operations role.
+Tanbii was live-service community support work. The platform was actively updating, the community had real opinions about those updates, and my job was to keep people engaged, informed, and heard throughout that process. Every decision, from how events were structured to how moderation policies were written, required judgment about what the community actually needed. That is the core skill set for any gaming, esports, or creator-brand operations role.
