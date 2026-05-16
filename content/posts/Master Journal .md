@@ -1,8 +1,8 @@
 ---
 title: Master Journal
-date: '2026-03-28T00:00:00.000Z'
+date: 2026-03-28T00:00:00.000Z
 draft: false
-published: false
+published: true
 ---
 
 When I enrolled in the Master's in Entertainment Business program at Full Sail University in September 2025, I had a clear goal in mind. I wanted to move beyond the production and operations side of entertainment that my Bachelor's degree at Harrisburg University covered. I needed to understand the business strategies, revenue models, and decision-making processes that drive major entertainment companies.

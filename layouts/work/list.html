@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="container">
+    <div class="intro">
+        <span class="intro-label">Portfolio &middot; {{ $.Site.Params.school }}</span>
+        <h1>Work</h1>
+        <p>Projects, roles, and experience from my time in the entertainment business.</p>
+    </div>
+
+    <div class="posts-header">{{ len .Pages }} {{ if eq (len .Pages) 1 }}project{{ else }}projects{{ end }}</div>
+    <div class="posts">
+        {{ range .Pages }}
+        <article class="post-item">
+            <span class="entry-label">{{ with .Params.category }}{{ . }}{{ else }}Project{{ end }}</span>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+            <div class="meta">
+                {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+                {{ with .Params.period }}<span>&middot; {{ . }}</span>{{ end }}
+                {{ if .Params.tags }}
+                <span class="tags">
+                    {{ range .Params.tags }}
+                    <span class="tag">#{{ . }}</span>
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+
+            {{ if .Summary }}
+            <p>{{ .Summary }}</p>
+            {{ end }}
+
+            <a href="{{ .Permalink }}" class="read-more">View project &rarr;</a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -29,7 +29,13 @@ enableEmoji = true
     weight = 1
 
   [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 2
+    weight = 3
