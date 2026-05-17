@@ -18,6 +18,14 @@ layout: resume
 - Collaborated with marketing teams across Instagram, TikTok, Facebook, and Twitter/X to align campaigns
 - Built moderation systems and automation workflows using MEE6 and Dyno
 
+### Esports League Development Intern
+#### Sports Media Inc. &middot; Los Angeles, CA (Remote) &middot; January 2025 – December 2025
+
+- Supported competitive gaming programs and live esports event operations
+- Organized leagues and tournaments, managing schedules, registrations, and ruleset documentation
+- Assisted with live event logistics and broadcast support
+- Produced written content for blogs and social posts, and conducted player and coach interviews
+
 ### Customer Service Representative II
 #### Optum / UnitedHealth Group &middot; Remote, CA &middot; February 2023 – September 2024
 
@@ -102,6 +110,9 @@ Business Analysis Foundations, Business Analysis Foundations: Business Process M
 
 **Data & Technology** &mdash; LinkedIn Learning, 2024
 Learning Data Science: Understanding the Basics, Managing Data with Microsoft 365, Managing Projects with Microsoft 365, Figma Essential Training: The Basics
+
+**Platform Certifications**
+LinkedIn Marketing Labs Certification &middot; HubSpot Social Media Marketing Certification
 
 ## Skills
 
