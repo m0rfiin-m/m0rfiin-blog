@@ -1,16 +1,19 @@
 ---
-title: Master Journal
+title: "Why I Came Back to School and What I Needed to Learn"
 date: 2026-03-28T00:00:00.000Z
 draft: false
 published: true
+tags: ["entertainment business", "personal brand", "career", "esports", "full sail"]
 ---
 
-When I enrolled in the Master's in Entertainment Business program at Full Sail University in September 2025, I had a clear goal in mind. I wanted to move beyond the production and operations side of entertainment that my Bachelor's degree at Harrisburg University covered. I needed to understand the business strategies, revenue models, and decision-making processes that drive major entertainment companies.
+When I enrolled in the Master's in Entertainment Business at Full Sail University in September 2025, I had a specific problem to solve. My Bachelor's degree at Harrisburg University gave me a foundation in production and operations. That work taught me how things get made and how to keep communities running. What it did not teach me was how decisions get made at the business level.
 
-Looking back at my original intention statement, I wrote about wanting to understand how companies like Netflix, Riot Games, and Sony make decisions about content, revenue, and resource allocation. I wanted to position myself for roles in the entertainment business rather than just production. This course has been instrumental in helping me work toward those goals.
+I wanted to understand how companies like Netflix, Riot Games, and Sony think about content, revenue, and resource allocation. Not from a fan's perspective, but from the inside. That required a different kind of education.
 
-The course content has deepened my understanding of brand positioning, audience strategy, and personal brand development. One of the most valuable lessons was learning how to articulate my unique value proposition in a competitive entertainment industry. Developing my personal brand strategy for this course forced me to evaluate my professional identity and how I present myself across platforms like LinkedIn. I now have a clearer sense of how to communicate my experience managing a 15,000+ member Discord community at Tanbii and how that experience translates to broader entertainment business roles.
+The first months of the program pushed me to think more clearly about what I actually bring to the table. Brand positioning, audience strategy, and personal brand development are not abstract concepts when you have to apply them to yourself. I had to evaluate my professional identity honestly and figure out how to communicate it to someone who does not already know me.
 
-Professionally, what I have learned applies directly to my career goals. I am seeking roles in esports and community management where I can contribute to business decisorather than just execute tasks. Understanding how to position a personal brand is critical when applying to major entertainment companies. The skills I developed in this course will help me stand out to employers and demonstrate that I understand both the creative and business sides of the industry.
+That process surfaced something I had not articulated well before. My experience managing a nearly 16,000 member Discord community at Tanbii is not just community management experience. It is data-driven operations experience. It is cross-team communication experience. It is understanding what an audience actually wants versus what looks good in a report. Those are skills that transfer directly into entertainment business roles, I just had not been framing them that way.
 
-Personally, this course has reinforced the importance of intentional career development. My family continues to be my inspiration. Building a stable career in the entertainment business will allow me to create fulfillment for the people I care about. Every lesson in this course brings me closer to that goal.
+That is what this program is fixing. Not my experience, but how I present it.
+
+I am targeting roles in esports and entertainment business operations where strategy and execution meet. The goal is to contribute to business decisions, not just carry them out. Every course in this program moves me closer to being able to do that convincingly, with the knowledge and credentials to back it up.
