@@ -18,13 +18,15 @@ layout: resume
 - Collaborated with marketing teams across Instagram, TikTok, Facebook, and Twitter/X to align campaigns
 - Built moderation systems and automation workflows using MEE6 and Dyno
 
-### Esports League Development Intern
-#### Sports Media Inc. &middot; Los Angeles, CA (Remote) &middot; January 2025 – December 2025
+### Esports League Development Volunteer
+#### Sports Media Inc. &middot; Los Angeles, CA (Remote) &middot; June 2025 – May 2026
 
-- Supported competitive gaming programs and live esports event operations
-- Organized leagues and tournaments, managing schedules, registrations, and ruleset documentation
+- Contributed to the esports department of a full-service sports marketing agency specializing in sponsorships and venue advertising
+- Developed documentation and written proposals to pursue sponsorship opportunities within the esports division
+- Collaborated with legal and content creation departments to align proposals with company standards and brand guidelines
+- Supported league and tournament operations including scheduling, registrations, and ruleset documentation
 - Assisted with live event logistics and broadcast support
-- Produced written content for blogs and social posts, and conducted player and coach interviews
+- Used Google Drive, Slack, and company AI tools to manage workflows and cross-departmental communication
 
 ### Customer Service Representative II
 #### Optum / UnitedHealth Group &middot; Remote, CA &middot; February 2023 – September 2024
