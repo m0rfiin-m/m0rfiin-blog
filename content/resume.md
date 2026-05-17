@@ -116,11 +116,24 @@ LinkedIn Marketing Labs Certification &middot; HubSpot Social Media Marketing Ce
 
 ## Skills
 
-Community Management &middot; Discord Operations &middot; Content Strategy &middot; Audience Engagement &middot; Data Analytics &middot; Cross-team Collaboration &middot; Event Planning &middot; Social Media Marketing &middot; SEO &middot; Project Management &middot; Business Analysis &middot; Customer Service &middot; De-escalation &middot; Caseload Management &middot; Technical Troubleshooting &middot; Documentation
+**Community & Audience**
+Community Management &middot; Discord Operations &middot; Fan Engagement &middot; Social Media Community Building &middot; Audience Engagement &middot; Community Events &middot; Social Media Contest &amp; Giveaway Management &middot; Public Speaking &middot; Relationship Management
+
+**Content & Marketing**
+Content Strategy &middot; Content Writing &middot; Content Scheduling &middot; Social Media Marketing &middot; Brand Awareness Strategy &middot; Growth Marketing &middot; Email Marketing &middot; SEO &middot; Digital Marketing &middot; Market Development &middot; Brand Partnerships
+
+**Esports & Live Events**
+Esports Broadcasting &middot; Live Event Production &middot; League &amp; Tournament Operations &middot; Live Streaming &middot; Player &amp; Coach Interviews
+
+**Analytics & Strategy**
+Data Analytics &middot; Engagement Rate Tracking &middot; Conversion Rate Tracking &middot; CTR Tracking &middot; Business Analysis &middot; Business Modeling &middot; Project Management
+
+**Operations & Support**
+Customer Service &middot; De-escalation &middot; Caseload Management &middot; Technical Troubleshooting &middot; CRM Management &middot; Technical Writing &middot; Documentation &middot; Negotiation &middot; Cross-team Collaboration
 
 ## Tools
 
-Discord &middot; Slack &middot; Notion &middot; Google Sheets &middot; Hootsuite &middot; Later &middot; Canva &middot; MEE6 &middot; Dyno &middot; Microsoft 365 &middot; Figma &middot; OBS
+Discord &middot; Slack &middot; Notion &middot; Hootsuite &middot; Zoho Social &middot; Later &middot; Canva &middot; MEE6 &middot; Dyno &middot; HubSpot &middot; Microsoft 365 &middot; Google Sheets &middot; Figma &middot; OBS &middot; Zoom &middot; Twitch &middot; YouTube
 
 ## Languages
 
