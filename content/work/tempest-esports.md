@@ -8,7 +8,7 @@ period: "2025 - Present"
 tags: ["esports", "brand strategy", "market research", "audience development", "FPS", "digital marketing"]
 ---
 
-![Tempest eSports](/images/tempest/tempest-title.png)
+![Tempest eSports](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-title.png)
 
 Tempest eSports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What began as a class assignment became a full digital marketing strategy I intend to build into something real.
 
@@ -18,7 +18,7 @@ Tempest is an FPS-focused esports organization built around competitive first-pe
 
 The business model runs on two revenue streams. On the consumer side: content and merchandise. On the B2B side: sponsorship and partnership packages targeting brands seeking FPS audience reach. Proposed digital properties include TempestEsports.gg and TempestEsportsHQ.com.
 
-![Business Concept](/images/tempest/tempest-business-concept.png)
+![Business Concept](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-business-concept.png)
 
 ## Competitive Analysis
 
@@ -32,7 +32,7 @@ I analyzed three major competitors to identify where Tempest fits and how to pos
 
 Tempest's position: blend competition with content, avoid overreliance on personalities, and stay tightly focused on FPS identity. Niche focus creates clarity, lower operating complexity, and stronger sponsor alignment than broader competitors.
 
-![Competitor Analysis](/images/tempest/tempest-competitor-analysis.png)
+![Competitor Analysis](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-competitor-analysis.png)
 
 ## Target Market
 
@@ -56,25 +56,25 @@ The content plan runs on four pillars:
 
 Every piece of content includes a clear call to action. Formats span short-form video, livestream clips, static graphics, blog posts, email prompts, and posters.
 
-![Content Strategy](/images/tempest/tempest-content-strategy.png)
+![Content Strategy](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-content-strategy.png)
 
 ## Campaign Mockups
 
 Three campaign assets were developed to show the strategy in action.
 
-![Campaign Mockups](/images/tempest/tempest-editorial-mockups.png)
+![Campaign Mockups](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/tempest-editorial-mockups.png)
 
 **Mockup 1 - Instagram Reel: Top Plays**
 
-![Top Plays Mockup](/images/tempest/mockup-top-plays.jpeg)
+![Top Plays Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-top-plays.jpeg)
 
 **Mockup 2 - Website Blog Post: Meet the Team**
 
-![Meet the Team Mockup](/images/tempest/mockup-meet-the-team.jpeg)
+![Meet the Team Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-meet-the-team.jpeg)
 
 **Mockup 3 - Event Poster: Community Night**
 
-![Community Night Mockup](/images/tempest/mockup-community-night.jpeg)
+![Community Night Mockup](https://m0rfiin-m.github.io/m0rfiin-blog/images/tempest/mockup-community-night.jpeg)
 
 ## Year 1 Budget: $15,000
 
