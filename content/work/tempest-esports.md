@@ -5,35 +5,100 @@ draft: false
 category: "Brand Strategy"
 role: "Founder & Strategist"
 period: "2025 - Present"
-tags: ["esports", "brand strategy", "market research", "audience development"]
+tags: ["esports", "brand strategy", "market research", "audience development", "FPS", "digital marketing"]
 ---
 
-Tempest eSports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What started as a class project grew into a full strategic framework I intend to build into something real.
+![Tempest eSports](/images/tempest/tempest-title.png)
 
-## The Problem
+Tempest eSports is a concept brand I developed during my Master's in Entertainment Business at Full Sail University. What began as a class assignment became a full digital marketing strategy I intend to build into something real.
 
-The esports industry is projected to surpass $1.8 billion in global revenue by 2030. Most organizations in that space are built around franchise models designed for investors, not communities. Fans are treated as an audience to monetize, not participants in the organization's direction.
+## The Concept
 
-That is the gap Tempest is designed to fill.
+Tempest is an FPS-focused esports organization built around competitive first-person shooter titles: Call of Duty, Valorant, Apex Legends, and Counter-Strike. It operates on a remote-first, LA-based model with lean digital-first operations.
 
-## The Strategy
+The business model runs on two revenue streams. On the consumer side: content and merchandise. On the B2B side: sponsorship and partnership packages targeting brands seeking FPS audience reach. Proposed digital properties include TempestEsports.gg and TempestEsportsHQ.com.
 
-Tempest eSports is built on a community-first model. Players and fans shape the organization's direction through structured input, transparent communication, and participatory programming. This is not a vague mission statement. It is an operational philosophy backed by research into how gaming audiences, particularly the 18-34 demographic, actually respond to brand messaging.
+![Business Concept](/images/tempest/tempest-business-concept.png)
 
-Research shows that gaming audiences value authenticity, community participation, and transparent communication over polished corporate content. Tempest's content strategy, partnership criteria, and team culture are all built around that insight.
+## Competitive Analysis
 
-## What I Built
+I analyzed three major competitors to identify where Tempest fits and how to position against them.
 
-- Full competitive analysis of the esports market, identifying white space for community-led organizations
-- Brand positioning framework with a defined unique value proposition
-- Audience segmentation research targeting the 18-34 gaming demographic
-- Content strategy aligned with how that demographic consumes and shares media
-- Revenue model exploration beyond traditional sponsorship dependency
+**100 Thieves** has a strong brand identity and integrated content engine, but its lifestyle focus dilutes a pure FPS niche.
 
-## Tools Used
+**FaZe Clan** generates high attention value through creator-led reach, but carries volatility tied to personality dependence.
 
-Market research, competitive benchmarking, audience segmentation frameworks, and AI-assisted analysis using Claude and Perplexity.
+**Team Liquid** has deep competitive credibility and global reach, but its scale makes the brand feel unfocused.
+
+Tempest's position: blend competition with content, avoid overreliance on personalities, and stay tightly focused on FPS identity. Niche focus creates clarity, lower operating complexity, and stronger sponsor alignment than broader competitors.
+
+![Competitor Analysis](/images/tempest/tempest-competitor-analysis.png)
+
+## Target Market
+
+**Primary audience (ages 16-34):** Competitive FPS players and esports viewers. Core games: Call of Duty, Valorant, Apex Legends, Counter-Strike.
+
+**Secondary audience (ages 18-30):** Gaming lifestyle consumers. Core platforms: Twitch, YouTube, Discord, TikTok, X, and Instagram.
+
+SEO strategy targets phrases including: Tempest Esports Valorant team, tournament recap, community events, FPS esports team for sponsors, and esports merch for FPS fans.
+
+## Content Strategy
+
+The content plan runs on four pillars:
+
+**Competition:** Match highlights, top plays, stat graphics, tournament announcements.
+
+**Personality:** Player spotlights, day-in-the-life content, behind-the-scenes footage, casual team interactions.
+
+**Community:** Polls, Discord discussions, user-generated content features, giveaways and fan reactions.
+
+**Credibility:** Blog articles, press releases, partnership announcements, founder and coach insights.
+
+Every piece of content includes a clear call to action. Formats span short-form video, livestream clips, static graphics, blog posts, email prompts, and posters.
+
+![Content Strategy](/images/tempest/tempest-content-strategy.png)
+
+## Campaign Mockups
+
+Three campaign assets were developed to show the strategy in action.
+
+![Campaign Mockups](/images/tempest/tempest-editorial-mockups.png)
+
+**Mockup 1 - Instagram Reel: Top Plays**
+
+![Top Plays Mockup](/images/tempest/mockup-top-plays.jpeg)
+
+**Mockup 2 - Website Blog Post: Meet the Team**
+
+![Meet the Team Mockup](/images/tempest/mockup-meet-the-team.jpeg)
+
+**Mockup 3 - Event Poster: Community Night**
+
+![Community Night Mockup](/images/tempest/mockup-community-night.jpeg)
+
+## Year 1 Budget: $15,000
+
+| Category | Allocation | Amount |
+|---|---|---|
+| Social Media Ads | 40% | $6,000 |
+| Freelance Designer | 30% | $4,500 |
+| Networking & Events | 17% | $2,500 |
+| Website & SEO Tools | 6% | $900 |
+| Email & CRM | 4% | $600 |
+| Print Materials | 3% | $500 |
+
+Projected Year 1 revenue: $162,000 scaling from $5K/month to $22K/month. Budget as a percentage of projected revenue: 9.2%, well below the 20% threshold for new ventures.
+
+## KPI Framework
+
+- **Social Media:** 10,000 combined followers across TikTok, Instagram, X, and Twitch with 5% engagement rate by end of Year 1
+- **SEO / Website:** 2,500 unique monthly visitors with under 40% bounce rate by Q4
+- **Traditional Marketing:** 500 QR code scans from printed materials driving traffic to Discord and the website
+
+## Analytics Plan
+
+Performance is tracked through Hootsuite for social reach and engagement, Google Analytics for website traffic and content performance, and Bitly for offline-to-online conversion from print materials. Social metrics are reviewed weekly for A/B testing. Website and traditional marketing are assessed monthly for ROI.
 
 ## Status
 
-Concept stage. The strategic foundation is complete. Tempest eSports is a long-term goal I am building toward throughout and beyond my Masters program.
+Concept stage with a complete strategic foundation. The next step is moving from strategy to operations: identifying the right title and region to enter, building the team, and launching the first community touchpoints.
